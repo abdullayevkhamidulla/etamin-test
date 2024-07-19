@@ -1,0 +1,55 @@
+
+
+.MainPage {
+  height: 826px;
+  width: 100%;
+  overflow: hidden;
+  background-image: url('../../assets/img/manu1.png');
+  background-repeat: no-repeat;
+  background-size: 100% 826px;
+  
+  .Main-text{
+    width: 100%;
+    height: auto;
+    padding-top: 101px;
+    padding-bottom: 101px;
+    padding-right: 82px;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+
+    .main-child{
+      width: 50%;
+      height: 450px;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      h1{
+        font-weight: 900;
+        font-size: 55px;
+        font-family: Roboto;
+        
+      }
+
+
+      p{
+        font-size: 30px;
+        font-weight: 700;
+      }
+      button{
+        width: 236px;
+        height: 65px;
+        border-radius: 45px;
+        border: none;
+        font-size: 22px;
+        font-weight: 700;
+        color: #38A3F1;
+      }
+    }
+  }
+
+
+
+}
+
